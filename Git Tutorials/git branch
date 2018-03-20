@@ -1,0 +1,6 @@
+    $ git pull origin your-branch-name
+        获取 branch 的代码
+    
+    $ git push origin your-branch-name
+        提交代码到该 branch
+        

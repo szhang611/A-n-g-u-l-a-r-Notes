@@ -1,0 +1,26 @@
+　$ mkdir jekyll_demo
+
+        对该目录进行git初始化。
+
+　　$ cd jekyll_demo
+
+　　$ git init
+
+        然后，创建一个没有父节点的分支gh-pages。因为github规定，只有该分支中的页面，才会生成网页文件。
+
+　　$ git checkout --orphan gh-pages　　
+
+        做完一系列操作之后...（添加了各种文件）
+
+    $ git add .
+
+　　$ git commit -m "first post"
+
+        然后，前往github的网站，在网站上创建一个名为jekyll_demo的库。接着，再将本地内容推送到github上你刚创建的库。注意，下面命令中的username，要替换成你的username。
+
+　　$ git remote add origin https://github.com/username/jekyll_demo.git
+
+　　$ git push origin gh-pages 
+        // gh-pages 可为 master 的 branch.
+
+        
