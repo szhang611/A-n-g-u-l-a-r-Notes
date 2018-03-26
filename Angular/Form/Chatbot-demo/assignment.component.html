@@ -1,0 +1,68 @@
+<div class="assignment-wrapper">
+  <div class="assignment-header">
+    <label style="width: 20%;">店名 :</label>
+    <select class="select-box" #agencySelect (change)="selectAgency($event)" *ngIf="!currentAgency">
+      <option class="option-item" *ngFor="let item of agencyList;let i = index;" [ngValue]="item">
+        {{item.agencyName}}
+      </option>
+      <option selected style="visibility: hidden;display: none!important;"></option>
+    </select>
+
+    <div class="agency-name" *ngIf="currentAgency">{{currentAgency}}</div>
+  </div>
+
+  <div class="assignment-body">
+
+    <form [formGroup]="userForm">
+
+      <div class="form-item">
+        <label>销售 :</label>
+        <select formControlName="formControl_1" #form_1 (change)="getAssociateChange($event)">
+          <option *ngFor="let item of agencyPeopleList;let i = index;" [ngValue]="item">
+            {{item.agencyServiceName}}
+          </option>
+          <option value="" style="visibility: hidden;display: none!important;"></option>
+        </select>
+      </div>
+
+      <div class="form-item" style="margin-top: 22px;">
+        <label>二手车 :</label>
+        <select formControlName="formControl_2" #form_2>
+          <option *ngFor="let item of agencyPeopleList;let i = index;" [ngValue]="item">
+            {{item.agencyServiceName}}
+          </option>
+          <option value="" style="visibility: hidden;display: none!important;"></option>
+        </select>
+      </div>
+
+      <div class="form-item">
+        <label>售后 :</label>
+        <select formControlName="formControl_3" #form_3>
+          <option *ngFor="let item of agencyPeopleList;let i = index;" [ngValue]="item">
+            {{item.agencyServiceName}}
+          </option>
+          <option value="" style="visibility: hidden;display: none!important;"></option>
+        </select>
+      </div>
+
+      <div class="form-item">
+        <label>紧急救援 :</label>
+        <select formControlName="formControl_4" #form_4>
+          <option *ngFor="let item of agencyPeopleList;let i = index;" [ngValue]="item">
+            {{item.agencyServiceName}}
+          </option>
+          <option value="" style="visibility: hidden;display: none!important;"></option>
+        </select>
+      </div>
+
+    </form>
+
+  </div>
+
+  <div class="assignment-footer">
+    <button class="btn btn-default" (click)="saveAssociate()">保 存</button>
+  </div>
+</div>
+
+
+<div class="loading-mask_" *ngIf="mask"></div>
