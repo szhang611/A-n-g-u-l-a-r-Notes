@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb452e98-b900-48dc-ad7e-2eaf6f548161" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/angular-cli.json" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/angular-cli.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/package-lock.json" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/package.json" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack_config.js" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack_config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/dist/index.html" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/dist/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/package-lock.json" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/package.json" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/src/index.js" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/src/print.js" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/src/print.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/src/style.css" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/src/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/webpack/webpack-demo/webpack.config.js" afterPath="$PROJECT_DIR$/Angular/webpack/webpack-demo/webpack.config.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -59,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -141,7 +128,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/Angular/webpack/chatbot-demo/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="392" />
     <option name="y" value="29" />
     <option name="width" value="1572" />
@@ -254,17 +241,18 @@
       <updated>1522315044241</updated>
       <workItem from="1522315046965" duration="10760000" />
       <workItem from="1522634475436" duration="5960000" />
-      <workItem from="1522640662303" duration="1855000" />
+      <workItem from="1522640662303" duration="2235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18575000" />
+    <option name="totallyTimeSpent" value="18955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18143237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18143237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -447,18 +435,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
