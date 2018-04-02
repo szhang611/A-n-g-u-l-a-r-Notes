@@ -1,7 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "material-dashboard-angular"
+    "name": "material-dashboard-angular",
+    "ejected": true
   },
   "apps": [
     {
@@ -19,21 +20,21 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-          "../node_modules/bootstrap/dist/css/bootstrap.css",
-          "../node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
-          "./assets/sass/material-dashboard.scss",
-          "./assets/css/demo.css"
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/perfect-scrollbar/css/perfect-scrollbar.css",
+        "./assets/sass/material-dashboard.scss",
+        "./assets/css/demo.css"
       ],
       "scripts": [
-          "../node_modules/jquery/dist/jquery.js",
-          "../node_modules/bootstrap/dist/js/bootstrap.js",
-          "../node_modules/bootstrap-material-design/dist/js/ripples.min.js",
-          "../node_modules/bootstrap-material-design/dist/js/material.min.js",
-          "../node_modules/arrive/src/arrive.js",
-          "../node_modules/moment/moment.js",
-          "../node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js",
-          "../node_modules/bootstrap-notify/bootstrap-notify.js",
-          "../node_modules/chartist/dist/chartist.js"
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "../node_modules/bootstrap-material-design/dist/js/ripples.min.js",
+        "../node_modules/bootstrap-material-design/dist/js/material.min.js",
+        "../node_modules/arrive/src/arrive.js",
+        "../node_modules/moment/moment.js",
+        "../node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js",
+        "../node_modules/bootstrap-notify/bootstrap-notify.js",
+        "../node_modules/chartist/dist/chartist.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
@@ -65,6 +66,7 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
+    "component": {
+    }
   }
 }
