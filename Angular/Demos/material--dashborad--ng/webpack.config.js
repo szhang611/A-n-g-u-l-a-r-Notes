@@ -9,7 +9,7 @@ const autoprefixer = require('autoprefixer');
 const postcssUrl = require('postcss-url');
 const cssnano = require('cssnano');
 
-// add plugins
+// todo : add plugins
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const AngularCompilerPlugin = require('@ngtools/webpack'); // Aot instead only ng5
@@ -26,7 +26,8 @@ const nodeModules = path.join(process.cwd(), 'node_modules');
 const realNodeModules = fs.realpathSync(nodeModules);
 const genDirNodeModules = path.join(process.cwd(), 'src', '$$_gendir', 'node_modules');
 // const entryPoints = ["inline","polyfills","sw-register","styles","vendor","main"];
-const entryPoints = ["inline", "assets/js/polyfills", "sw-register", "assets/js/styles", "assets/js/vendor", "assets/js/main"];
+// todo
+const entryPoints = ["assets/js/inline", "assets/js/polyfills", "sw-register", "assets/js/styles", "assets/js/vendor", "assets/js/main"];
 
 const minimizeCss = false;
 const baseHref = "";
@@ -89,13 +90,14 @@ module.exports = {
     ]
   },
   "entry": {
-    "main": [
+    // todo: add assets path
+    "assets/js/main": [
       "./src\\main.ts"
     ],
-    "polyfills": [
+    "assets/js/polyfills": [
       "./src\\polyfills.ts"
     ],
-    "styles": [
+    "assets/js/styles": [
       "./node_modules\\bootstrap\\dist\\css\\bootstrap.css",
       "./node_modules\\perfect-scrollbar\\css\\perfect-scrollbar.css",
       "./src\\assets\\sass\\material-dashboard.scss",
@@ -104,30 +106,39 @@ module.exports = {
   },
   "output": {
     "path": path.join(process.cwd(), "dist"),
-    "filename": "[name].bundle.js",
-    "chunkFilename": "[id].chunk.js"
+      // todo: add hash
+      "filename": "[name].[hash].bundle.js",
+    // "filename": "[name].bundle.js",
+    // "chunkFilename": "[id].chunk.js"
+      "crossOriginLoading": false
   },
   "module": {
     "rules": [
-      {
-        "enforce": "pre",
-        "test": /\.js$/,
-        "loader": "source-map-loader",
-        "exclude": [
-          /(\\|\/)node_modules(\\|\/)/
-        ]
-      },
+      // {
+      //   "enforce": "pre",
+      //   "test": /\.js$/,
+      //   "loader": "source-map-loader",
+      //   "exclude": [
+      //     /(\\|\/)node_modules(\\|\/)/
+      //   ]
+      // },
       {
         "test": /\.html$/,
         "loader": "raw-loader"
       },
       {
         "test": /\.(eot|svg|cur)$/,
-        "loader": "file-loader?name=[name].[hash:20].[ext]"
+          // todo: add assets path
+        "loader": "file-loader?name=assets/fonts/[name].[hash:20].[ext]",
       },
       {
         "test": /\.(jpg|png|webp|gif|otf|ttf|woff|woff2|ani)$/,
-        "loader": "url-loader?name=[name].[hash:20].[ext]&limit=10000"
+        "loader": "url-loader",
+          "options": {
+              // todo: add assets path
+              "name": "assets/fonts/[name].[hash:20].[ext]",
+              "limit": 10000,
+          }
       },
       {
         "exclude": [
@@ -390,10 +401,11 @@ module.exports = {
   "plugins": [
     new NoEmitOnErrorsPlugin(),
     new ConcatPlugin({
-      "uglify": false,
+      "uglify": true,
       "sourceMap": true,
       "name": "scripts",
-      "fileName": "[name].bundle.js",
+        // todo: add assets path
+      "fileName": "assets/js/[name].[hash].bundle.js",
       "filesToConcat": [
         "node_modules\\jquery\\dist\\jquery.js",
         "node_modules\\bootstrap\\dist\\js\\bootstrap.js",
@@ -410,14 +422,22 @@ module.exports = {
       "scripts"
     ]),
     new CopyWebpackPlugin([
-      {
-        "context": "src/",
-        "to": "",
-        "from": {
-          "glob": "assets/**/*",
-          "dot": true
-        }
-      },
+        {
+            "context": "src\\assets",
+            "to": "./assets/",
+            "from": {
+                "glob": "**/*",
+                "dot": true
+            }
+        },
+      // {
+      //   "context": "src/",
+      //   "to": "",
+      //   "from": {
+      //     "glob": "assets/**/*",
+      //     "dot": true
+      //   }
+      // },
       {
         "context": "src/",
         "to": "",
@@ -469,7 +489,7 @@ module.exports = {
     new BaseHrefWebpackPlugin({}),
     new CommonsChunkPlugin({
       "name": [
-        "inline"
+        "assets/js/inline"
       ],
       "minChunks": null
     }),
@@ -515,7 +535,7 @@ module.exports = {
 
       // -========================  manually add
       new CleanWebpackPlugin(['dist']),
-      // :: important , reduce bundle size hugely
+      // todo:: important , reduce bundle size hugely
       new UglifyJsPlugin({
           sourceMap: true
       }),
@@ -525,7 +545,7 @@ module.exports = {
           debug: false
       }),
 
-      // only ng5
+      // todo : only ng5
 
       // new AngularCompilerPlugin({
       //     "mainPath": "main.ts",
