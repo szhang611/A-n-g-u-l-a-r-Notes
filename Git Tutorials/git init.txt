@@ -24,3 +24,23 @@
         // gh-pages 可为 master 的 branch.
 
         
+
+     修改remote url： 
+        https://help.github.com/articles/changing-a-remote-s-url/
+
+
+      // ---------------------------------------
+
+        git init
+
+        git add .
+
+        git commit -m "first commit"
+
+        git remote add origin (remote repository URL here)
+
+        git remote -v
+
+        git push -u origin master
+        
+      // ---------------------------------------

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb452e98-b900-48dc-ad7e-2eaf6f548161" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md" afterPath="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,28 +29,47 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="14" selection-end-column="82" />
+            <state relative-caret-position="-4380">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding>
+                <element signature="e#5137#5964#0" expanded="false" />
+                <element signature="e#5972#7006#0" expanded="false" />
+                <element signature="e#7014#8003#0" expanded="false" />
+                <element signature="e#8011#9002#0" expanded="false" />
+                <element signature="e#9010#9809#0" expanded="false" />
+                <element signature="e#9817#10823#0" expanded="false" />
+                <element signature="e#10831#11792#0" expanded="false" />
+                <element signature="e#11800#12763#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="27" column="245" lean-forward="false" selection-start-line="27" selection-start-column="245" selection-end-line="27" selection-end-column="245" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="60">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -81,7 +100,12 @@
       <find>C:</find>
       <find>CleanWebpackPlugin</find>
       <find>UglifyJsPlugin</find>
+      <find>prod</find>
+      <find>output</find>
       <find>entryPoints</find>
+      <find>inline</find>
+      <find>scripts</find>
+      <find>uglify</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -103,8 +127,8 @@
         <option value="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/package.json" />
         <option value="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack_config.js" />
         <option value="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/angular-cli.json" />
-        <option value="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js" />
         <option value="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md" />
+        <option value="$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -128,7 +152,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/Angular/webpack/chatbot-demo/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="392" />
     <option name="y" value="29" />
     <option name="width" value="1572" />
@@ -169,13 +193,6 @@
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="material--dashborad--ng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
@@ -241,24 +258,23 @@
       <updated>1522315044241</updated>
       <workItem from="1522315046965" duration="10760000" />
       <workItem from="1522634475436" duration="5960000" />
-      <workItem from="1522640662303" duration="2235000" />
+      <workItem from="1522640662303" duration="9383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18955000" />
+    <option name="totallyTimeSpent" value="26103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18143237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22122017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44683394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33930704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -299,7 +315,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15540">
           <caret line="518" column="9" lean-forward="true" selection-start-line="518" selection-start-column="9" selection-end-line="518" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#5137#5964#0" expanded="false" />
+            <element signature="e#5972#7006#0" expanded="false" />
+            <element signature="e#7014#8003#0" expanded="false" />
+            <element signature="e#8011#9002#0" expanded="false" />
+            <element signature="e#9010#9809#0" expanded="false" />
+            <element signature="e#9817#10823#0" expanded="false" />
+            <element signature="e#10831#11792#0" expanded="false" />
+            <element signature="e#11800#12763#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,6 +389,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1260">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -419,14 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="14" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -435,18 +453,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
+    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
+    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/dist/assets/js/scripts.2da4155515f6673fafbd.bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" column="245" lean-forward="false" selection-start-line="27" selection-start-column="245" selection-end-line="27" selection-end-column="245" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4380">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#5137#5964#0" expanded="false" />
+            <element signature="e#5972#7006#0" expanded="false" />
+            <element signature="e#7014#8003#0" expanded="false" />
+            <element signature="e#8011#9002#0" expanded="false" />
+            <element signature="e#9010#9809#0" expanded="false" />
+            <element signature="e#9817#10823#0" expanded="false" />
+            <element signature="e#10831#11792#0" expanded="false" />
+            <element signature="e#11800#12763#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
