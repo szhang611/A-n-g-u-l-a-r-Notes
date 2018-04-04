@@ -1,18 +1,19 @@
 window.onload = function () {
-    var name = "小王", age = 20;
+    let name = "小王";
+    let age = 20;
 
-    var obj = {
+    let obj = {
         name: "小张",
         objAge: this.age,
         myFun: function(from,to){
             console.log(`${this.name},年龄${this.age},来自${from}去往${to}`);
         }
-    }
+    };
 
-    var db = {
+    let db = {
         name: "百度",
         age: 88
-    }
+    };
 
 
 
@@ -33,4 +34,4 @@ window.onload = function () {
 // 　　　　
 // 　　　　当然，三者的参数不限定是string类型，允许是各种类型，包括函数 、 object 等等！
 
-}
+};
