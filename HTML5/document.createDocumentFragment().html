@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>document.createDocumenFragment</title>
+</head>
+<body onload="init()">
+    <ul id="list">
+
+    </ul>
+
+<script type="application/javascript">
+    function init() {
+        let frag = document.createDocumentFragment();
+
+        for(let i = 0;i < 20;i++){
+            let li = document.createElement('li');
+            li.innerHTML = `No. ${i}`;
+            frag.appendChild(li);
+        }
+
+        document.getElementById("list").appendChild(frag);
+    }
+</script>
+</body>
+</html>

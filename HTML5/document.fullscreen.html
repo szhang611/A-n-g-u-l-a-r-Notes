@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Full screen</title>
+</head>
+<body onload="init()"> 
+    <video controls id="myvideo">
+        <source src="somevideo.webm">
+        <source src="somevideo.mp4">
+    </video>
+
+<script>
+    function init() {
+        let elem = document.getElementById("myvideo");
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        }
+
+    }
+</script>
+</body>
+</html>

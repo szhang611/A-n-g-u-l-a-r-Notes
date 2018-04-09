@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" charset="utf-8">
+        function init() {
+
+            function onMouseUp(e) {
+                console.log(e);
+                let outputElement = document.getElementById('output-element');
+                let outputText = document.getElementById('output-text');
+                let selectedTextArea = document.activeElement;
+
+                let selection = selectedTextArea.value.substring(
+                    selectedTextArea.selectionStart, selectedTextArea.selectionEnd);
+                outputElement.innerHTML = selectedTextArea.id;
+                outputText.innerHTML = selection;
+            }
+
+            document.getElementById("ta-example-one").addEventListener("mouseup", onMouseUp, false);
+            document.getElementById("ta-example-two").addEventListener("mouseup", onMouseUp, false);
+        }
+    </script>
+</head>
+<body onload="init()">
+    <div>
+        Select some text from one of the Textareas below:
+    </div>
+    <form id="frm-example" action="#" accept-charset="utf-8">
+        <textarea name="ta-example-one" id="ta-example-one" rows="8" cols="40">
+        This is Textarea Example One:
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt, lorem a porttitor molestie, odio nibh iaculis libero, et accumsan nunc orci eu dui.
+        </textarea>
+
+        <textarea name="ta-example-two" id="ta-example-two" rows="8" cols="40">
+        This is Textarea Example Two:
+        Fusce ullamcorper, nisl ac porttitor adipiscing, urna orci egestas libero, ut accumsan orci lacus laoreet diam. Morbi sed euismod diam.
+        </textarea>
+    </form>
+    Active Element Id: <span id="output-element"></span><br/>
+    Selected Text: <span id="output-text"></span>
+
+</body>
+</html>
+
+
+
+<!--https://developer.mozilla.org/zh-CN/docs/Web/API/Document/activeElement-->
+
+<!--概述-->
+<!--返回当前页面中获得焦点的元素,也就是说,如果此时用户按下了键盘上某个键,会在该元素上触发键盘事件.该属性是只读的.-->
+
+<!--很多情况下,该属性会返回一个<input>或者<textarea>元素,于此同时,如果用户在文本输入框中选中了一些文本,还可以使用该元素的selectionStart和selectionEnd属性获得准确的选中文本内容.-->
+
+<!--该属性的值还可能是一个<select>元素(下拉菜单)或者type属性为button,checkbox或radio的<input>元素.-->
+
+<!--注: 在Mac上,无法输入文字的元素无法获得焦点.-->
+<!--通常,用户可以通过Tab键来在页面中可以获得焦点的那些元素中切换,然后按下空格键激活这个元素(按下按钮,选择单选选项,打开下拉菜单选项等).-->
+
+<!--如果没有某个元素获得焦点,则该属性的值为当前页面中的<body>元素. -->
+
+<!--注: 该属性被包含在了HTML5规范中.-->
