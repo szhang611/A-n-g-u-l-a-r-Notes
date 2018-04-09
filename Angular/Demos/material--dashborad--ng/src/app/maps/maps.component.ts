@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer } from '@angular/core';
 
 declare const google: any;
 interface Marker {
@@ -14,7 +14,7 @@ draggable?: boolean;
 })
 export class MapsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private renderer:Renderer) { }
 
   ngOnInit() {
       const myLatlng = new google.maps.LatLng(40.748817, -73.985428);
