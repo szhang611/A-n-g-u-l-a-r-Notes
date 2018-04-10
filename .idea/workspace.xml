@@ -276,14 +276,14 @@
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="Movies-Finder" type="462c0819:PsiDirectoryNode" />
+              <item name="find movies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="Movies-Finder" type="462c0819:PsiDirectoryNode" />
+              <item name="find movies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -291,7 +291,7 @@
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
               <item name="Angular" type="462c0819:PsiDirectoryNode" />
               <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="Movies-Finder" type="462c0819:PsiDirectoryNode" />
+              <item name="find movies" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -370,12 +370,12 @@
       <workItem from="1522640662303" duration="9383000" />
       <workItem from="1522810336871" duration="2978000" />
       <workItem from="1523238278121" duration="56000" />
-      <workItem from="1523253479067" duration="16838000" />
+      <workItem from="1523253479067" duration="17544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45975000" />
+    <option name="totallyTimeSpent" value="46681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
