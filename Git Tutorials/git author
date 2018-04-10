@@ -1,0 +1,4 @@
+## change commit author name and email
+ $ git config --global user.name "Sam"
+ $ git config --global user.name "huai.fei@gmail.com"
+ $ git config --amend --reset-author
