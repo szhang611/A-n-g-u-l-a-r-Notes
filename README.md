@@ -1,2 +1,2 @@
-# A-n-g-u-l-a-r-Notes
+# Record notes
 Daily Notes
