@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb452e98-b900-48dc-ad7e-2eaf6f548161" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day2/fs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day3/RegExp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day4/console.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day5/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/HTML5/document.activeElement.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-270">
-              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -34,17 +36,94 @@
         <entry file="file://$PROJECT_DIR$/Node.js/30-days/day4/console.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="870">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Node.js/30-days/day5/error.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="711">
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="steam.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node.js/30-days/day15/steam.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frame.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4832">
+              <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="17" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dance.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dance.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dance.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding>
+                <element signature="e#5442#7100#0" expanded="false" />
+                <element signature="e#7120#7401#0" expanded="false" />
+                <element signature="e#8088#9535#0" expanded="false" />
+                <element signature="e#9764#10150#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frame.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frame.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,8 +134,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -82,6 +161,10 @@
       <find>scripts</find>
       <find>uglify</find>
       <find>var</find>
+      <find>dat</find>
+      <find>300</find>
+      <find>150</find>
+      <find>canvas</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -122,6 +205,13 @@
         <option value="$PROJECT_DIR$/Node.js/30-days/day3/RegExp.js" />
         <option value="$PROJECT_DIR$/Node.js/30-days/day4/console.js" />
         <option value="$PROJECT_DIR$/Node.js/30-days/day5/error.js" />
+        <option value="$PROJECT_DIR$/Node.js/30-days/day15/steam.js" />
+        <option value="$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.html" />
+        <option value="$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.css" />
+        <option value="$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.js" />
+        <option value="$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.css" />
+        <option value="$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.js" />
+        <option value="$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.html" />
       </list>
     </option>
   </component>
@@ -146,7 +236,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/Angular/webpack/chatbot-demo/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="392" />
     <option name="y" value="29" />
     <option name="width" value="1572" />
@@ -179,31 +269,31 @@
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
-              <item name="30-days" type="462c0819:PsiDirectoryNode" />
+              <item name="Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="Demos" type="462c0819:PsiDirectoryNode" />
+              <item name="Movies-Finder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
-              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
-              <item name="demos" type="462c0819:PsiDirectoryNode" />
-              <item name="try-1" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML5" type="462c0819:PsiDirectoryNode" />
+              <item name="drag" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,19 +359,21 @@
       <workItem from="1522640662303" duration="9383000" />
       <workItem from="1522810336871" duration="2978000" />
       <workItem from="1523238278121" duration="56000" />
-      <workItem from="1523253479067" duration="13352000" />
+      <workItem from="1523253479067" duration="16693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42489000" />
+    <option name="totallyTimeSpent" value="45830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -294,7 +386,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -314,89 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Javascript/call.apply.bind.js" />
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2850">
-          <caret line="95" column="6" lean-forward="true" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
-          <folding>
-            <element signature="e#5137#5964#0" expanded="false" />
-            <element signature="e#5972#7006#0" expanded="false" />
-            <element signature="e#7014#8003#0" expanded="false" />
-            <element signature="e#8011#9002#0" expanded="false" />
-            <element signature="e#9010#9809#0" expanded="false" />
-            <element signature="e#9817#10823#0" expanded="false" />
-            <element signature="e#10831#11792#0" expanded="false" />
-            <element signature="e#11800#12763#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#5137#5964#0" expanded="false" />
-            <element signature="e#5972#7006#0" expanded="false" />
-            <element signature="e#7014#8003#0" expanded="false" />
-            <element signature="e#8011#9002#0" expanded="false" />
-            <element signature="e#9010#9809#0" expanded="false" />
-            <element signature="e#9817#10823#0" expanded="false" />
-            <element signature="e#10831#11792#0" expanded="false" />
-            <element signature="e#11800#12763#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="245" lean-forward="false" selection-start-line="27" selection-start-column="245" selection-end-line="27" selection-end-column="245" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -707,7 +715,7 @@
     <entry file="file://$PROJECT_DIR$/HTML5/document.activeElement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -715,7 +723,7 @@
     <entry file="file://$PROJECT_DIR$/Node.js/30-days/day4/console.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -725,6 +733,85 @@
         <state relative-caret-position="711">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aboutMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.js/30-days/day15/steam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="43" lean-forward="false" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/drag/drag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4832">
+          <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="17" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/FLUID DYNAMICS/frame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#5442#7100#0" expanded="false" />
+            <element signature="e#7120#7401#0" expanded="false" />
+            <element signature="e#8088#9535#0" expanded="false" />
+            <element signature="e#9764#10150#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
