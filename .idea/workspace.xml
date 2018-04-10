@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb452e98-b900-48dc-ad7e-2eaf6f548161" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Documentation/design/Don't make me think" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day2/fs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day3/RegExp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day4/console.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Node.js/30-days/day5/error.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,18 +23,28 @@
       <file leaf-file-name="document.activeElement.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML5/document.activeElement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-630">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="-270">
+              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Don't make me think" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Documentation/design/Don't make me think">
+      <file leaf-file-name="console.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Node.js/30-days/day4/console.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="870">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Node.js/30-days/day5/error.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,8 +56,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -105,6 +118,10 @@
         <option value="$PROJECT_DIR$/HTML5/document.fullscreen.html" />
         <option value="$PROJECT_DIR$/HTML5/document.createDocumentFragment().html" />
         <option value="$PROJECT_DIR$/Documentation/design/Don't make me think" />
+        <option value="$PROJECT_DIR$/Node.js/30-days/day2/fs.js" />
+        <option value="$PROJECT_DIR$/Node.js/30-days/day3/RegExp.js" />
+        <option value="$PROJECT_DIR$/Node.js/30-days/day4/console.js" />
+        <option value="$PROJECT_DIR$/Node.js/30-days/day5/error.js" />
       </list>
     </option>
   </component>
@@ -162,13 +179,31 @@
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+              <item name="Javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
+              <item name="30-days" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="Node.js" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+              <item name="try-1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,18 +269,17 @@
       <workItem from="1522640662303" duration="9383000" />
       <workItem from="1522810336871" duration="2978000" />
       <workItem from="1523238278121" duration="56000" />
-      <workItem from="1523253479067" duration="9535000" />
+      <workItem from="1523253479067" duration="13352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38672000" />
+    <option name="totallyTimeSpent" value="42489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1602122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -280,30 +314,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#5137#5964#0" expanded="false" />
-            <element signature="e#5972#7006#0" expanded="false" />
-            <element signature="e#7014#8003#0" expanded="false" />
-            <element signature="e#8011#9002#0" expanded="false" />
-            <element signature="e#9010#9809#0" expanded="false" />
-            <element signature="e#9817#10823#0" expanded="false" />
-            <element signature="e#10831#11792#0" expanded="false" />
-            <element signature="e#11800#12763#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Javascript/call.apply.bind.js" />
     <entry file="file://$PROJECT_DIR$/Angular/Demos/material--dashborad--ng/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -614,14 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Node.js/tutorials/fs/fs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Node.js/30-days/day1/serve-html.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -670,18 +672,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML5/document.activeElement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Documentation/design/Don't make me think">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.js/30-days/day2/fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.js/tutorials/fs/fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.js/30-days/day3/RegExp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML5/document.activeElement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.js/30-days/day4/console.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Node.js/30-days/day5/error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
