@@ -91,8 +91,8 @@
       <file leaf-file-name="dance.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding>
                 <element signature="e#5442#7100#0" expanded="false" />
                 <element signature="e#7120#7401#0" expanded="false" />
@@ -274,30 +274,6 @@
             <path>
               <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="find movies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="find movies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="Demos" type="462c0819:PsiDirectoryNode" />
-              <item name="find movies" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="A-n-g-u-l-a-r-Notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="A-n-g-u-l-a-r-Notes" type="462c0819:PsiDirectoryNode" />
               <item name="HTML5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,12 +346,12 @@
       <workItem from="1522640662303" duration="9383000" />
       <workItem from="1522810336871" duration="2978000" />
       <workItem from="1523238278121" duration="56000" />
-      <workItem from="1523253479067" duration="17544000" />
+      <workItem from="1523253479067" duration="18226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46681000" />
+    <option name="totallyTimeSpent" value="47363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -814,8 +790,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS3/CodePen/Case/DancingRobot/dance.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
             <element signature="e#5442#7100#0" expanded="false" />
             <element signature="e#7120#7401#0" expanded="false" />
