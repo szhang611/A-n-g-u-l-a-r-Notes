@@ -80,3 +80,5 @@ new (Date.bind.apply(Date, [null, 2015, 1, 1]))
 // ES6
 new Date(...[2015, 1, 1]);
 
+
+// add
