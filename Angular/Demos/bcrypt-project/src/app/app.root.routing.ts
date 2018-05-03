@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
+import { Bcrypt1Component } from "./bcrypt-1/bcrypt-1.component";
 
 
 const routes: Routes =[
-  { path: 'dashboard',      component: DashboardComponent },
-  { path: 'b-crypt-1',   component:  },\
-  { path: '',               redirectTo: 'dashboard', pathMatch: 'full' }
+  { path: 'bcrypt-1',   component: Bcrypt1Component },
+  { path: '', redirectTo: 'bcrypt-1', pathMatch: 'full' }
 ];
 
 @NgModule({
