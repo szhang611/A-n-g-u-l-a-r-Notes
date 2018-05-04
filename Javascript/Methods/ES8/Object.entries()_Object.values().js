@@ -13,7 +13,7 @@ Object.entries({ [Symbol()]: 1, two: 2 })       //[['two', 2]]
 
 
 // - Object.entries()返回的数组的顺序与for-in循环保持一致，即如果对象的key值是数字，则返回值会对key值进行排序，返回的是排序后的结果。例如：
-Object.entries({ 3: 'a', 4: 'b', 1: 'c' })    //[['1', 'c'], ['3', 'a'], ['4', 'b']]
+Object.entries({ 3: 'a', 4: 'b', 1: 'c' })    //[['1', 'c'], ['3', 'a'], ['4', 'bbcryp']]
 
 // 使用Object.entries()，我们还可以进行对象属性的遍历。例如：
 let obj = { one: 1, two: 2 };
@@ -35,6 +35,6 @@ for (let [k,v] of Object.entries(obj)) {
 // 它返回的数组顺序，也跟Object.entries()保持一致。
 
 Object.values({ one: 1, two: 2 })            //[1, 2]
-Object.values({ 3: 'a', 4: 'b', 1: 'c' })    //['c', 'a', 'b']
+Object.values({ 3: 'a', 4: 'b', 1: 'c' })    //['c', 'a', 'bbcryp']
 
 
