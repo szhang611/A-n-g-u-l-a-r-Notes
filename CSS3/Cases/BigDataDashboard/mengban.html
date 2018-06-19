@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蒙版效果图</title>
+    <style>
+        .box{
+            position: relative;
+            height:600px;
+            width:500px;
+            background: fixed url("../../../Aseets/img/movie-poster.jpg");
+        }
+        .blur-modal{
+            position: absolute;
+            height:250px;
+            width:500px;
+            top: 350px;
+            background: fixed url("../../../Aseets/img/movie-poster.jpg");
+            filter:blur(1rem);
+        }
+        .black-modal{
+            position: absolute;
+            height:250px;
+            width:500px;
+            top: 350px;
+            background: rgba(0,0,0,.2);
+            color: white;
+        }
+        .box-2{
+            position: relative;
+            height:600px;
+            width:500px;
+            background: url("../../../Aseets/img/janeiro-cristo.jpg");
+        }
+    </style>
+</head>
+<body>
+<div class='box'>
+    <div class='blur-modal'></div>
+    <div class='black-modal'> Description Here. </div>
+</div>
+<!--<div class='box-2'></div>-->
+
+<br>
+<br>
+<br>
+<br>
+作者：maodayeyeye
+链接：https://juejin.im/post/5b1e2b50f265da6e5546c15d
+来源：掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+</body>
+</html>
