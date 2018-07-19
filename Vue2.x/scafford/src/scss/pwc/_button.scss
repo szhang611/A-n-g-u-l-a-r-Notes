@@ -1,0 +1,23 @@
+
+.big-button{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    background: $pwc_orange_2;
+    border: solid 1px $pwc_orange_2;
+    width: 100%;
+    line-height: 3.6rem;
+    transition: background .2s;
+
+    &:hover{
+        background: white;
+        color: $pwc_orange_2;
+        cursor: pointer;
+        
+    }
+    &[disabled]{
+        background: $pwc_orange_12;
+        border-color: $pwc_orange_12;
+        color: white;
+    }
+}
