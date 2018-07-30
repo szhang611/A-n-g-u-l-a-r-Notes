@@ -1,0 +1,19 @@
+Template:
+<button (click)="showOrHideManually()"> Show/Hide manually </button>
+<label #myLabel> SOME TEXT BLABLA </label>
+
+Component:
+export class App {
+  public shouldShow = true;
+  @ViewChild("myLabel") lab;
+showOrHideManually() {
+    this.shouldShow = !this.shouldShow;
+    if(this.shouldShow) {
+      this.lab.nativeElement.classList.add("show");
+      this.lab.nativeElement.classList.remove("hide");
+    } else {
+      this.lab.nativeElement.classList.add("hide");
+      this.lab.nativeElement.classList.remove("show");
+    }
+  }
+}

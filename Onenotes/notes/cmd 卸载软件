@@ -1,0 +1,9 @@
+http://jingyan.baidu.com/article/1876c852bf8487890b1376a2.html 
+ 
+ 
+1. 在dos命令界面下输入“wmic”回车，进入wmic命令模式； 
+2. 在wmic模式里面输入“product”命令回车，列出localhost安装的软件； 
+3. 在列出的软件里面找到要卸载的软件名称，向右拖拽找到“localpackage”值； 
+4. 在localpackage值下面点鼠标右键标记有卸载软件的路径；   e.g: C:\WINDOWS\Installer\bd27.msi 
+5. 标记完成输入“exit”命令退出wmic模式； 
+将刚才标记的localpackage值的内容点右键粘贴到命令行中，点回车执行会弹出卸载向导，按照向导卸载即可！ 
