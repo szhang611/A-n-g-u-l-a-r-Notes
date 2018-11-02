@@ -21,7 +21,8 @@
 
   export default {
     computed: {
-      username: this.$store.state.user.username
+//      username: this.$store.state.user.username
+      username: ''
     },
     methods: {
       logout() {
