@@ -75,7 +75,6 @@ class ProfileComponent extends Component {
                                     <Image source={filterUserAvatar(this.state.currentDisplayedFriend)} style={styles.userAvatarInProfile} resizeMode='cover'/>
                                     <Text style={styles.userNameInProfile} numberOfLines={1}>{this.state.userProfileObj.name.firstName}</Text>
                                     <Text style={styles.userNameInProfile} numberOfLines={1}>{this.state.userProfileObj.name.lastName}</Text>
-                                    <Text style={styles.userNameInProfile} numberOfLines={1}>{this.state.userProfileObj.name.displayName}@pwc.com</Text>
                                     <Text style={styles.userNameInProfile} numberOfLines={1}>00100200300</Text>
                                     <Text style={styles.userNameInProfile} numberOfLines={1}>New York</Text>
                                     <Text style={styles.userNameInProfile} numberOfLines={1}>{this.state.currentDisplayedFriend}</Text>
